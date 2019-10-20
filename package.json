@@ -1,0 +1,28 @@
+{
+  "name": "protractor-es6-module-esm-jasmine",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, ESM &amp; jasmine",
+  "scripts": {
+    "upadte-webderiver": "webdriver-manager update",
+    "test": "protractor -r esm protractor.conf.js",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "keywords": [
+    "protractor",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "esm": "^3.2.25",
+    "jasmine": "^3.5.0",
+    "prettier": "^1.18.2",
+    "protractor": "^5.4.2"
+  }
+}
