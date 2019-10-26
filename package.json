@@ -9,11 +9,13 @@
   },
   "keywords": [
     "protractor",
+    "es6 modules",
     "esm",
+    "jasmine",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.5.1",
