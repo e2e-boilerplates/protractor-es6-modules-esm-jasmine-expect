@@ -1,24 +1,24 @@
-name: Node CI
+name: protractor-es6module-esm-jasmine
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
-      run: |
-        npm ci
-      env:
-        CI: true
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: INSTALL
+        run: |
+          npm ci
+        env:
+          CI: true
+      - name: LINT, UPDATE-WEBDRIVER, TEST
+        run: |
+          npm run lint
+          npm run upadte-webderiver
+          npm run test-ci
