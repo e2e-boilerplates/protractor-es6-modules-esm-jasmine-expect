@@ -1,5 +1,7 @@
 # Protractor: (ES6 modules, ESM, jasmine)
 
+[![GitHub Actions status | e2e-boilerplates/protractor-es6module-esm-jasmine](https://github.com/e2e-boilerplates/protractor-es6module-esm-jasmine/workflows/protractor-es6module-esm-jasmine/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6module-esm-jasmine/actions?workflow=protractor-es6module-esm-jasmine)
+
 Protractor end-to-end test automation boilerplate project. Using ES6 modules, ESM and jasmine.
 
 ## Getting Started
