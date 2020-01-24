@@ -1,4 +1,4 @@
-name: protractor-es6module-esm-jasmine
+name: protractor-es6modules-esm-jasmine
 
 on: [push]
 
