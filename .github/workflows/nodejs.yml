@@ -1,4 +1,4 @@
-name: protractor-es6modules-esm-jasmine
+name: protractor-es6-modules-esm-jasmine-expect
 
 on: 
   push:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
@@ -20,8 +20,12 @@ jobs:
           npm ci
         env:
           CI: true
-      - name: LINT, UPDATE-WEBDRIVER, TEST
+      - name: LINT
         run: |
           npm run lint
+      - name: UPDATE WEBDRIVER
+        run: |
           npm run upadte-webderiver
+      - name: TEST
+        run: |
           npm run test-ci
