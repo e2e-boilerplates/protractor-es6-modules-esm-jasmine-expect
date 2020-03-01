@@ -1,29 +1,15 @@
 {
-  "name": "protractor-es6-modules-esm-jasmine-expect",
-  "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Jasmine and Expect",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor -r esm protractor.conf.js",
-    "test-ci": "npx protractor -r esm protractor-ci.conf.js"
-  },
-  "keywords": [
-    "protractor",
-    "es6 modules",
-    "esm",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "expect"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "2.1.1"
+  },
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Jasmine and Expect",
   "devDependencies": {
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "esm": "3.2.25",
     "husky": "4.2.3",
@@ -37,7 +23,29 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "dependencies": {
-    "puppeteer": "2.1.1"
-  }
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "esm",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-es6-modules-esm-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-esm-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "test": "npx protractor -r esm protractor.conf.js",
+    "test-ci": "npx protractor -r esm protractor-ci.conf.js"
+  },
+  "version": "1.0.0"
 }
