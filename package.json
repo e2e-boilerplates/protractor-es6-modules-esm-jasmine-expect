@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "dependencies": {
     "puppeteer": "2.1.1"
   },
@@ -24,14 +24,10 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
+    "es Modules",
     "es6",
     "esm",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "protractor"
   ],
