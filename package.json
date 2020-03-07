@@ -38,9 +38,9 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor -r esm protractor.conf.js",
-    "test-ci": "npx protractor -r esm protractor-ci.conf.js"
+    "test-ci": "npx protractor -r esm protractor-ci.conf.js",
+    "upadte-webderiver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
