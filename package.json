@@ -1,8 +1,5 @@
 {
   "author": "",
-  "dependencies": {
-    "puppeteer": "2.1.1"
-  },
   "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Jasmine and Expect",
   "devDependencies": {
     "eslint": "6.5.1",
@@ -38,9 +35,8 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx protractor -r esm protractor.conf.js",
-    "test:ci": "npx protractor -r esm protractor-ci.conf.js",
-    "upadte-webderiver": "npx webdriver-manager update"
+    "test": "npx protractor -r esm",
+    "update-webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
