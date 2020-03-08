@@ -1,1 +1,50 @@
-{"author":"Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)","bugs":{"url":"https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/issues"},"description":"Protractor end-to-end test automation boilerplate. using Using ES Modules, esm, Jasmine and Expect.","devDependencies":{"eslint":"6.5.1","eslint-config-airbnb-base":"14.0.0","eslint-config-prettier":"6.10.0","eslint-plugin-import":"2.20.1","eslint-plugin-json":"2.1.0","eslint-plugin-prettier":"3.1.2","esm":"3.2.25","husky":"4.2.3","jasmine":"3.5.0","prettier":"1.19.1","pretty-quick":"2.0.1","protractor":"5.4.3"},"homepage":"https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect#readme","husky":{"hooks":{"pre-commit":"pretty-quick --staged"}},"keywords":["boilerplate","e2e","e2e tests","esm","example","expect","integration test","jasmine","protractor"],"license":"MIT","name":"protractor-es-modules-esm-jasmine-expect","repository":{"type":"git","url":"git+https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect.git"},"scripts":{"lint":"npx eslint --ext .js ./ --fix","test":"npx protractor -r esm","update-webdriver":"npx webdriver-manager update"},"version":"1.0.0"}
+{
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/issues"
+  },
+  "description": "Protractor end-to-end test automation boilerplate. Using Using ES Modules, esm, Jasmine and Expect.",
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "esm": "3.2.25",
+    "husky": "4.2.3",
+    "jasmine": "3.5.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "protractor": "5.4.3"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "esm",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-es-modules-esm-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx protractor -r esm",
+    "update-webdriver": "npx webdriver-manager update"
+  },
+  "version": "1.0.0"
+}
