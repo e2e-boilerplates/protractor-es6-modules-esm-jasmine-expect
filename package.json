@@ -1,9 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/issues"
   },
-  "description": "Protractor end-to-end test automation boilerplate. Using Using ES Modules, esm, Jasmine and Expect.",
+  "description": "Protractor end-to-end test automation boilerplate. using ES Modules, esm, Jasmine and Expect.",
   "devDependencies": {
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
@@ -25,13 +25,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
     "esm",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "protractor"
   ],
