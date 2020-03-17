@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/protractor-es-modules-esm-jasmine-expect](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/workflows/protractor-es-modules-esm-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/actions?workflow=protractor-es-modules-esm-jasmine-expect)
+[![GitHub Actions status | e2e-boilerplate/protractor-es-modules-esm-jasmine-expect](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/workflows/protractor-es-modules-esm-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/actions?workflow=protractor-es-modules-esm-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Protractor Boilerplate
 
