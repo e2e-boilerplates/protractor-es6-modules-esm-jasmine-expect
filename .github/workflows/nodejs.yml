@@ -1,5 +1,5 @@
 name: protractor-es-modules-esm-jasmine-expect
-"on":
+'on':
   push: null
   schedule:
     - cron: 10 1 1-31/2 * *
