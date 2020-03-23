@@ -1,8 +1,8 @@
-[![GitHub Actions status | e2e-boilerplate/protractor-es-modules-esm-jasmine-expect](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/workflows/protractor-es-modules-esm-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/actions?workflow=protractor-es-modules-esm-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Actions status | e2e-boilerplate/protractor-es-modules-esm-jasmine-expect](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/workflows/protractor-es-modules-esm-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect/actions?workflow=protractor-es-modules-esm-jasmine-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
 
 # Protractor Boilerplate
 
-Protractor end-to-end test automation boilerplate, using ES Modules, esm, Jasmine and Expect.
+Protractor end-to-end test automation boilerplate, Using ES Modules, esm, Jasmine and Expect.
 
 ## Getting Started
 
