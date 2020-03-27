@@ -3,21 +3,21 @@ const specs = ["spec/*.spec.js"];
 const framework = "jasmine";
 const jasmineNodeOpts = {
   isVerbose: true,
-  realtimeFailure: true
+  realtimeFailure: true,
 };
 
 const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
+    browserName: "chrome",
   },
   framework,
   jasmineNodeOpts,
   onPrepare: () => {
     /* eslint-disable-next-line global-require */
     require("esm");
-  }
+  },
 };
 
 const headless = {
@@ -26,15 +26,15 @@ const headless = {
   capabilities: {
     browserName: "chrome",
     chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
+      args: ["--headless", "--no-sandbox", "--disable-gpu"],
+    },
   },
   framework,
   jasmineNodeOpts,
   onPrepare: () => {
     /* eslint-disable-next-line global-require */
     require("esm");
-  }
+  },
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
