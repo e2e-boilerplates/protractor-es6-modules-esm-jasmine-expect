@@ -22,7 +22,7 @@
   "homepage": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -37,6 +37,11 @@
     "protractor"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "protractor-es-modules-esm-jasmine-expect",
   "repository": {
     "type": "git",
