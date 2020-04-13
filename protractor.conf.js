@@ -1,9 +1,13 @@
+
+      
 const directConnect = true;
-const specs = ["spec/*.spec.js"];
+const specs = ["spec/*.spec.ts"];
 const framework = "jasmine";
-const jasmineNodeOpts = {
-  isVerbose: true,
-  realtimeFailure: true,
+
+const mochaOpts = {};
+
+const onPrepare = () => {
+  browser.waitForAngularEnabled(false);
 };
 
 const headed = {
@@ -13,11 +17,8 @@ const headed = {
     browserName: "chrome",
   },
   framework,
-  jasmineNodeOpts,
-  onPrepare: () => {
-    /* eslint-disable-next-line global-require */
-    require("esm");
-  },
+  mochaOpts,
+  onPrepare
 };
 
 const headless = {
@@ -25,18 +26,15 @@ const headless = {
   specs,
   capabilities: {
     browserName: "chrome",
-    chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"],
-    },
+      chromeOptions: {
+        args: ["--headless", "--no-sandbox", "--disable-gpu"],
+      },
   },
   framework,
-  jasmineNodeOpts,
-  onPrepare: () => {
-    /* eslint-disable-next-line global-require */
-    require("esm");
-  },
+  mochaOpts,
+  onPrepare
 };
 
-const config = process.env.GITHUB_ACTIONS ? headless : headed;
-
+const config = process.env.GITHUB_ACTIONS ? headless : headed;    
+           
 exports.config = config;
