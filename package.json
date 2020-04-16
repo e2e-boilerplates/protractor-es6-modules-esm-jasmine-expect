@@ -6,7 +6,7 @@
   "dependencies": {
     "esm": "3.2.25",
     "jasmine": "3.5.0",
-    "protractor": "5.4.3"
+    "protractor": "5.4.4"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using ES Modules, esm, Jasmine and Expect.",
   "devDependencies": {
