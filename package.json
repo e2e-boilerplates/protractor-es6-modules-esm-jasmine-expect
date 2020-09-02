@@ -10,14 +10,14 @@
   },
   "description": "Protractor end-to-end test automation boilerplate. Using ES Modules, esm, Jasmine and Expect.",
   "devDependencies": {
-    "eslint": "7.7.0",
+    "eslint": "7.8.1",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.2.5",
     "lint-staged": "10.2.13",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "pretty-quick": "3.0.0"
   },
   "homepage": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-jasmine-expect#readme",
